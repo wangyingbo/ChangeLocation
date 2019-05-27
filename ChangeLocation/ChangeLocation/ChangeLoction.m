@@ -2,8 +2,8 @@
 //  ChangeLoction.m
 //  ChangeLocation
 //
-//  Created by ljb48229 on 2018/1/26.
-//  Copyright © 2018年 ljb48229. All rights reserved.
+//  Created by 王迎博 on 2018/12/26.
+//  Copyright © 2018年 王迎博. All rights reserved.
 //
 
 #import "ChangeLoction.h"
