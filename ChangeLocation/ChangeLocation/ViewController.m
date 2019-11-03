@@ -25,9 +25,9 @@
     //如果要想知道任意位置的坐标
     //1.去高德地图http://lbs.amap.com/console/show/picker，选中自己坐标
     //杭州  120.211963,30.274602
-    //恒泰中心  39.866242,116.306313
-    //
     //奥北中心北区  40.059262,116.409936
+    //恒泰中心  39.866242,116.306313
+    
     //2.在进行坐标转换
     CLLocationCoordinate2D location2D = CLLocationCoordinate2DMake(39.866242, 116.306313);
     CLLocationCoordinate2D WGSlocation2D = [ChangeLoction gcj02ToWgs84:location2D];
