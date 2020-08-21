@@ -57,6 +57,7 @@
     //当前的经纬度
     NSLog(@"当前的经纬度 %f,%f",currentLocation.coordinate.latitude,currentLocation.coordinate.longitude);
     self.location2DLable.text = [NSString stringWithFormat:@"当前  纬度:%f,经度:%f",currentLocation.coordinate.latitude,currentLocation.coordinate.longitude];
+    self.location2DLable.textColor = [UIColor blackColor];
     
     //地理反编码 可以根据坐标(经纬度)确定位置信息(街道 门牌等)
     CLGeocoder *geoCoder = [[CLGeocoder alloc]init];
@@ -74,6 +75,8 @@
             NSLog(@"当前街道 - %@",placeMark.thoroughfare);//当前街道
             NSLog(@"具体地址 - %@",placeMark.name);//具体地址
             self.locationLable.text = [NSString stringWithFormat:@"%@,%@,%@,%@,%@",placeMark.country,currentCity,placeMark.subLocality,placeMark.thoroughfare,placeMark.name];
+            self.locationLable.textColor = [UIColor redColor];
+            self.locationLable.textAlignment = NSTextAlignmentCenter;
         }
     }];
 }
