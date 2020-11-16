@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  ChangeLocation
 //
-//  Created by ljb48229 on 2018/1/26.
-//  Copyright © 2018年 ljb48229. All rights reserved.
+//  Created by wyb on 2018/1/26.
+//  Copyright © 2018年 wyb. All rights reserved.
 //
 
 #import "AppDelegate.h"
