@@ -61,6 +61,7 @@ _Pragma("clang diagnostic pop")
     //杭州  120.211963,30.274602
     //奥北中心北区  40.059262,116.409936
     //恒泰中心  39.866242,116.306313
+    //石家庄   38.01,114.47
     
     //2.在进行坐标转换
     CLLocationCoordinate2D location2D = CLLocationCoordinate2DMake(39.866242, 116.306313);
